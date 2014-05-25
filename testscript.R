@@ -5,6 +5,8 @@ inverse.matrix1
 matrix1 * inverse.matrix1 
 matrix1 %*% inverse.matrix1
 
+setwd("C:/R/ProgrammingAssignment2")
+source("cachematrix.R")
 m <- makeCacheMatrix() #initialize
 m                      # shows that m is now a list of functions
 class(m)               # shows that m is a list
